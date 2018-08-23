@@ -1,5 +1,5 @@
 # UNIciTY
-a randon vue.js + unity project 
+a randon project about vue.js real-time control unity assets..
 
 # SITE SETUP
 ### Install dependencies
@@ -17,7 +17,6 @@ npm run dev
 #### 2 - run main scene
 #### 3 - run Unity 
 #### 4 - w,s,a,d to move around, take a bit for the video to load.
-
 ### Have fun :) 
 
 
