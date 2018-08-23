@@ -2,7 +2,7 @@
 a randon vue.js + unity project 
 
 # SITE SETUP
-### install dependencies
+### Install dependencies
 npm install
 
 ### Run server at localhost:8080
