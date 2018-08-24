@@ -35,7 +35,7 @@
         :value="userData.pet"
         @input="userData.pet = $event.target.value" placeholder="your pet's name">
     </div>
-    <button v-on:click="submitData">SEND TO DISCO CITY</button>
+    <button v-on:click="submitData">Send to Unity</button>
   </div>
 </template>
 

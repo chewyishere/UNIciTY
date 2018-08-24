@@ -29,9 +29,11 @@ export default {
 
 img{
     width: 100%;
+    height: 100%;
     position: fixed;
     z-index: -1;
     left: 0;
+    top: 0;
 }
 
   h1 {
@@ -52,8 +54,10 @@ img{
     font-size: 2em;
     font-style: italic;
     color: white;
+
   }
-  
+
+
   .block {
     width: 50%;
     height: 400px;
@@ -62,7 +66,7 @@ img{
     flex-direction: column;
   }
   
-  .text-input, button {
+  input, button {
     width: 70%;
     height: 30px;
     text-align: center;
@@ -70,10 +74,11 @@ img{
   }
 
   button{
-      width: 500px;
-      height: 100px;
-      font-weight: normal;
-     font-size: 3em;
+    height: 50px;
+    margin: 50px 0;
+    width: 300px;
+    font-weight: normal;
+    font-size: 2em;
     text-transform: capitalize;
     font-family: Impact;
      text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
@@ -111,9 +116,30 @@ img{
 }
 
 label{
-      font-size: 1.5rem;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-left: -80px;
 }
+
+  @media only screen and (max-width: 600px) {
+    h2, button{
+        font-size: 1em;
+    }
+    input{
+        font-size: 12px;
+        width: 85%;
+        margin: 10px auto;
+    }
+    .block{
+      width: 100%;
+      height: unset;
+    }
+    button{
+      height: 35px;
+      width: 70%;
+    }
+
+  }
+
 
   </style>
