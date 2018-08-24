@@ -1,6 +1,6 @@
 # UNIciTY
 a randon project about vue.js real-time control unity assets..
-### live demo: [theunicity.fun](theunicity.fun)
+### live demo: [theunicity.fun](http://theunicity.fun)
 
 # SITE SETUP
 ### Install dependencies
