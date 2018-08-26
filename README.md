@@ -1,6 +1,6 @@
 # UNIciTY
 a randon project about vue.js real-time control unity assets..
-### live demo: [theunicity.fun](http://theunicity.fun)
+### UI Interface: [theunicity.fun](http://theunicity.fun)
 
 # SITE SETUP
 ### Install dependencies
@@ -17,9 +17,8 @@ npm run dev
 #### 1 - import package into Unity (I didn't have much time clean the project so it's a bit messy,sorry..)
 #### 2 - run main scene
 #### 3 - run Unity 
-#### 4 - w,s,a,d to move around, take a bit for the video to load.
+#### 4 - w,s,a,d to move around
 
-### Have fun :) 
 
 
 
